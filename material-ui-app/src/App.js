@@ -1,11 +1,12 @@
 import React from "react";
+import { Test } from "./CustomTheme/CustoTheme";
+
+//custom theme
 
 export const App = () => {
   return (
     <>
-      <div>
-        <h2>Welcome TO Material UI APP</h2>
-      </div>
+      <Test />
     </>
   );
 };
