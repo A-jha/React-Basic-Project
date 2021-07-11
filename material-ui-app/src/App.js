@@ -1,12 +1,12 @@
 import React from "react";
-import { RadioComp } from "./Button/RadioComp";
+import { Notes } from "./Pages/Notes";
 
 //custom theme
 
 export const App = () => {
   return (
     <>
-      <RadioComp />
+      <Notes />
     </>
   );
 };
